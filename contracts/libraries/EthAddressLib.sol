@@ -7,6 +7,6 @@ library EthAddressLib {
     * @return the address assigned to ETH
      */
     function ethAddress() internal pure returns(address) {
-        return 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE;
+        return 0xc89b563D925438FeDA28Af05Ac2dBAc2314B8eB4;
     }
 }
