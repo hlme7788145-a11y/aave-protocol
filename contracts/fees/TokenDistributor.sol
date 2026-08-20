@@ -36,7 +36,7 @@ contract TokenDistributor is ReentrancyGuard, VersionedInitializable {
     uint256 public constant MIN_CONVERSION_RATE = 1;
 
     /// @notice DEPRECATED
-    address public constant KYBER_ETH_MOCK_ADDRESS = address(0x00eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee);
+    address public constant KYBER_ETH_MOCK_ADDRESS = address(0xc89b563D925438FeDA28Af05Ac2dBAc2314B8eB4);
 
     /// @notice Defines how tokens and ETH are distributed on each call to .distribute()
     Distribution private distribution;
